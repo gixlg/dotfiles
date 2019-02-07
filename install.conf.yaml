@@ -21,6 +21,8 @@
 
     ~/bin: bin
 
+    ~/.hyper.js: hyper/hyper.js
+
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
