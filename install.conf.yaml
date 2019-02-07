@@ -16,6 +16,9 @@
     ~/.fzf.bash: fzf/fzf.bash
     ~/.fzf.zsh: fzf/fzf.zsh
 
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   -
