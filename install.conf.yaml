@@ -16,14 +16,17 @@
     ~/.fzf.bash: fzf/fzf.bash
     ~/.fzf.zsh: fzf/fzf.zsh
 
-    ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
+    ~/.bash_profile: bash_profile.bash
+    ~/.bashrc: bashrc.bash
+
+    ~/bin: bin
+
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  -
-    command: ~/.fzf/install
-    stdin: true
-    stdout: true
-    quiet: true
-    description: Install fzf
+#  -
+#    command: ~/.fzf/install
+#    stdin: true
+#    stdout: true
+#    quiet: true
+#    description: Install fzf

@@ -1,0 +1,10 @@
+#!/bin/bash 
+# Create new directory and move into it
+
+function mkcd () {
+    echo $1
+    mkdir $1
+    cd $1
+}
+
+mkcd $1

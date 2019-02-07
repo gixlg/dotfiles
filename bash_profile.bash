@@ -28,7 +28,7 @@ export PATH=$PATH:$M2_HOME/bin
 
 #IntellJ Diff
 alias diff-idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea diff"
-alias open-scratches='open /Users/lgiubert/Library/Preferences/IntelliJIdea2018.2/scratches/'
+alias open-scratches='open ~/Library/Preferences/IntelliJIdea2018.2/scratches/'
 
 #Sublime
 alias sl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
@@ -39,7 +39,7 @@ alias sl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 #alias connect-server-vm="ssh root@vm-optsrv-25.cisco.com -t \"cd /opt/CSCOlumos; bash --login\""
 
 #CDETS CLI
-export CDETS_INSTALL_DIR=/Users/lgiubert/Development/Cisco/cdets-unix
+export CDETS_INSTALL_DIR=~/Development/Cisco/cdets-unix
 export PATH=$PATH:$CDETS_INSTALL_DIR/bin
 #-----------------------EPNM------------------------------
 
@@ -96,8 +96,8 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/lgiubert/.sdkman"
-[[ -s "/Users/lgiubert/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lgiubert/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="~/.sdkman"
+[[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
