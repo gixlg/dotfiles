@@ -19,3 +19,6 @@
 [submodule "git-aware-prompt"]
 	path = git-aware-prompt
 	url = git://github.com/jimeh/git-aware-prompt.git
+[submodule "fzf/fzf"]
+	path = fzf/fzf
+	url = https://github.com/junegunn/fzf

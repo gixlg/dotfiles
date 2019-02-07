@@ -7,9 +7,20 @@
 - link:
     ~/.vim: vim
     ~/.vimrc: vimrc
+
     ~/.git-completion.bash: git-completion.bash
     ~/.bash/git-aware-prompt: git-aware-prompt
     ~/.gitconfig: gitconfig
 
+    ~/.fzf: fzf/fzf
+    ~/.fzf.bash: fzf/fzf.bash
+    ~/.fzf.zsh: fzf/fzf.zsh
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: ~/.fzf/install
+    stdin: true
+    stdout: true
+    quiet: true
+    description: Install fzf
