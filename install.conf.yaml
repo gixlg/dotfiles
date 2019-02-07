@@ -7,6 +7,9 @@
 - link:
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.git-completion.bash: git-completion.bash
+    ~/.bash/git-aware-prompt: git-aware-prompt
+    ~/.gitconfig: gitconfig
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

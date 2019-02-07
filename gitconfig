@@ -1,0 +1,9 @@
+[user]
+	email = gix_lg@yahoo.com
+	name = Luca Giuberti
+[core]
+	autocrlf = input
+[alias]
+	pr = pull --rebase
+[http]
+	sslVerify = false
