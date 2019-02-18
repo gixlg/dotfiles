@@ -12,10 +12,6 @@
     ~/.bash/git-aware-prompt: git-aware-prompt
     ~/.gitconfig: gitconfig
 
-    ~/.fzf: fzf/fzf
-    ~/.fzf.bash: fzf/fzf.bash
-    ~/.fzf.zsh: fzf/fzf.zsh
-
     ~/.bash_profile: bash_profile.bash
     ~/.bashrc: bashrc.bash
 
@@ -23,12 +19,15 @@
 
     ~/.hyper.js: hyper/hyper.js
 
+    ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
-#  -
-#    command: ~/.fzf/install
-#    stdin: true
-#    stdout: true
-#    quiet: true
-#    description: Install fzf
+    - [git submodule update --init --recursive, Installing submodules]
+
+    -   command: brew install fzf && $(brew --prefix)/opt/fzf/install --all
+        stdin: true
+        stdout: true
+        quiet: false
+        description: Install fzf through Brew
