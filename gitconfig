@@ -2,7 +2,7 @@
 	email = gix_lg@yahoo.com
 	name = Luca Giuberti
 [core]
-	autocrlf = input
+	autocrlf = true
 [alias]
 	pr = pull --rebase
 [http]
