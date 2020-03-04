@@ -29,8 +29,14 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
 
-    -   command: brew install fzf && $(brew --prefix)/opt/fzf/install --all
+    -   command: brew/setup_brew_packages.sh #to remove packages run brew/setup_brew_packages.sh --remove
         stdin: true
         stdout: true
         quiet: false
-        description: Install fzf through Brew
+        description: Install Brew packages
+
+    -   command: $(brew --prefix)/opt/fzf/install --all
+        stdin: true
+        stdout: true
+        quiet: false
+        description: Install fzf
