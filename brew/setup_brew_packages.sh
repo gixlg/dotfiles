@@ -5,6 +5,7 @@ brew_packages=(
     htop
     maven
     fzf
+    node
 )
 
 brew_cask_packages=(
