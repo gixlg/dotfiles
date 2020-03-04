@@ -18,6 +18,12 @@
     ~/.bash_profile: bash_profile.bash
     ~/.bashrc: bashrc.bash
 
+    ~/.zshrc: zshrc.zsh
+
+    #alternatives to '$(brew --prefix)/opt/fzf/install --all'
+    ~/.fzf.bash: fzfconfig/fzf.bash
+    ~/.fzf.zsh: fzfconfig/fzf.zsh
+
     ~/bin: bin
 
     ~/.hyper.js: hyper/hyper.js
@@ -34,9 +40,3 @@
         stdout: true
         quiet: false
         description: Install Brew packages
-
-    -   command: $(brew --prefix)/opt/fzf/install --all
-        stdin: true
-        stdout: true
-        quiet: false
-        description: Install fzf
