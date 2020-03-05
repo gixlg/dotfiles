@@ -6,6 +6,13 @@ brew_packages=(
     maven
     fzf
     node
+
+    exa # ls replacement https://github.com/ogham/exa
+    bat # cat replacement https://github.com/sharkdp/bat
+    prettyping # ping replacement https://github.com/denilsonsa/prettyping
+    fd # user-friendly find alternative https://github.com/sharkdp/fd/
+    ncdu # better du
+    tldr # better man https://github.com/tldr-pages/tldr/
 )
 
 brew_cask_packages=(
@@ -22,6 +29,18 @@ brew_cask_packages=(
     postman
     docker
     intellij-idea
+    visual-studio-code
+    google-drive-file-stream
+    dropbox
+    gimp
+    drawio
+    1password
+
+    # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
+    qlcolorcode
+    qlstephen
+    qlmarkdown
+    quicklook-json
 
 )
 
