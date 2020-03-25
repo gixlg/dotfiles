@@ -7,6 +7,7 @@ brew_packages=(
     fzf
     node
     jenv #https://github.com/jenv/jenv
+    bash-completion
 
     exa # ls replacement https://github.com/ogham/exa
     bat # cat replacement https://github.com/sharkdp/bat
