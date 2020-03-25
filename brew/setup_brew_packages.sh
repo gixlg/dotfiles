@@ -4,7 +4,7 @@ source ./utils/confirm.sh
 brew_packages=(
     htop
     maven
-    fzf
+    fzf #https://github.com/junegunn/fzf
     node
     jenv #https://github.com/jenv/jenv
     bash-completion
