@@ -18,7 +18,10 @@ alias openmysql="mysql -u root --password=password"
 #JAVA
 #do this to see all installed version:
 #/usr/libexec/java_home -V
-#export JAVA_HOME=`/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home`
+
+#jenv https://github.com/jenv/jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 #Maven
 #export M2_HOME=/usr/local/apache-maven-3.5.0
