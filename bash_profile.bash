@@ -23,9 +23,6 @@ alias openmysql="mysql -u root --password=password"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-#Maven
-#export M2_HOME=/usr/local/apache-maven-3.5.0
-#export PATH=$PATH:$M2_HOME/bin
 
 #IntellJ Diff
 alias diff-idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea diff"
@@ -53,8 +50,6 @@ alias edit-profile='code ~/.bash_profile'
 #History shortcut
 alias h='history'
 
-#yarn https://yarnpkg.com
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 #Mac config
 #Modify default forlder for screenshot
@@ -79,21 +74,10 @@ alias ll='ls -l'
 alias mci='mvn clean install'
 alias mi='mvn install'
 
+#Bash Completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="~/.sdkman"
-[[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
-
-# Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
-#PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
 
 
 
