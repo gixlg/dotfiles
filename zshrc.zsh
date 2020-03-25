@@ -100,4 +100,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+source $ZSH/oh-my-zsh.sh
+source ~/.myscript/common.sh
