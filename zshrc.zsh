@@ -71,6 +71,8 @@ ZSH_THEME="robbyrussell"
 plugins=(
 	git
 	fzf
+	z #https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z
+	jira #https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jira
 )
 
 source $ZSH/oh-my-zsh.sh
