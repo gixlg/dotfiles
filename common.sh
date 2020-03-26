@@ -30,6 +30,8 @@ alias start-apache="apachectl start"
 alias edit-profile='code ~/.bash_profile'
 alias edit-z-profile='code ~/.zshrc'
 
+alias showenv="printenv | cat"
+
 #History shortcut
 alias h='history'
 
@@ -55,3 +57,8 @@ alias mi='mvn install'
 #jenv https://github.com/jenv/jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+#Load works script/alias and staff
+if [ -f ~/.myscript/work.sh ]; then
+    source ~/.myscript/work.sh
+fi
