@@ -1,4 +1,11 @@
 #---------- Common alias and staff shared between bash and zsh shell -----------------------
+#CLI: improved https://remysharp.com/2018/08/23/cli-improved
+alias cat='bat'
+alias ping='prettyping --nolegend'
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
+alias help='tldr'
+alias top="htop"
+
 #IntellJ Diff
 alias diff-idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea diff"
 alias open-scratches='open ~/Library/Preferences/IntelliJIdea2018.2/scratches/'

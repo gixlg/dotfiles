@@ -11,6 +11,7 @@ brew_packages=(
 
     exa # ls replacement https://github.com/ogham/exa
     bat # cat replacement https://github.com/sharkdp/bat
+    diff-so-fancy # diff replacement https://github.com/so-fancy/diff-so-fancy
     prettyping # ping replacement https://github.com/denilsonsa/prettyping
     fd # user-friendly find alternative https://github.com/sharkdp/fd/
     ncdu # better du
