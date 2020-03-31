@@ -75,7 +75,10 @@ plugins=(
 	jira #https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jira
 )
 
-source $ZSH/oh-my-zsh.sh
+#Enable zsh-autosuggestions plugins installed with brew #https://github.com/zsh-users/zsh-autosuggestions
+source "/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
 
 # User configuration
 

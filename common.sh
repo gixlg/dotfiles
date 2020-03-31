@@ -29,6 +29,8 @@ alias start-apache="apachectl start"
 #Edit profile
 alias edit-profile='code ~/.bash_profile'
 alias edit-z-profile='code ~/.zshrc'
+alias edit-common-profile='code ~/.myscript/common.sh'
+alias edit-dotfiles='code ~/dotfiles'
 
 alias showenv="printenv | cat"
 
@@ -44,6 +46,8 @@ alias add-space-on-dock="defaults write com.apple.dock persistent-apps -array-ad
 #Enable key repeats on your Mac http://www.idownloadblog.com/2015/01/14/how-to-enable-key-repeats-on-your-mac/
 alias enable-key-repeats="defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false"
 alias disable-key-repeats="defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true"
+#https://www.howtogeek.com/howto/33414/how-to-make-the-mac-os-x-finder-suck-less/
+alias enable-full-path-name-in-finder="defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder"
 
 #My Scripts
 export PATH=$PATH:~/bin

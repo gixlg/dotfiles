@@ -16,6 +16,9 @@ brew_packages=(
     fd # user-friendly find alternative https://github.com/sharkdp/fd/
     ncdu # better du
     tldr # better man https://github.com/tldr-pages/tldr/
+
+    zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 brew_cask_packages=(
@@ -38,6 +41,7 @@ brew_cask_packages=(
     gimp
     drawio
     1password
+    dbeaver-community #https://stackoverflow.com/a/60912567/5945360
 
     # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
     qlcolorcode

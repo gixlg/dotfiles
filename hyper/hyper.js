@@ -124,7 +124,8 @@ module.exports = {
     'hyperterm-dibdabs', //colored dot on the left of the tab
     'hyperterm-tabs', //tabs reordering support plugin
     'hyper-alt-click', //moving the cursor by alt+clicking in hyper
-    'hyper-sync-settings' //Sync Hyper settings with Github.
+    'hyper-savetext', //add the button for text export (shell/export text as) https://www.npmjs.com/package/hyper-savetext
+    "hyper-search"
   ],
 
   // in development, you can create a directory under
