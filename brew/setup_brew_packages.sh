@@ -3,9 +3,15 @@ source ./utils/confirm.sh
 
 brew_packages=(
     htop
+    wget
+    telnet
+    tree
+
     maven
-    fzf #https://github.com/junegunn/fzf
+    gradle
     node
+
+    fzf #https://github.com/junegunn/fzf
     jenv #https://github.com/jenv/jenv
     bash-completion
 
