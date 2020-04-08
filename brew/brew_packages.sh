@@ -45,6 +45,8 @@ brew_cask_packages=(
     drawio
     1password
     dbeaver-community #https://stackoverflow.com/a/60912567/5945360
+    bitbar #https://getbitbar.com/
+    vlc
 
     # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
     qlcolorcode
