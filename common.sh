@@ -62,6 +62,10 @@ alias mi='mvn install'
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+#pyenv
+export PATH="$(pyenv root)/shims:$PATH"
+eval "$(pyenv init -)"
+
 #Load works script/alias and staff
 if [ -f ~/.myscript/work.sh ]; then
     source ~/.myscript/work.sh
