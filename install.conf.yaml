@@ -44,3 +44,9 @@
         stdout: true
         quiet: false
         description: Install Brew packages
+
+#    -   command: install_docker_shell_completion.sh 
+#        stdin: true
+#        stdout: true
+#        quiet: false
+#        description: Install Docker CLI completion

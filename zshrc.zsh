@@ -107,3 +107,11 @@ source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
 source ~/.myscript/common.sh
+
+
+if type brew &>/dev/null; then
+	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+     autoload -Uz compinit
+     compinit
+fi

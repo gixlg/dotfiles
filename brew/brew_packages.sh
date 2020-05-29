@@ -23,6 +23,7 @@ brew_packages=(
 
     zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
     zsh-syntax-highlighting
+    zsh-completions #https://formulae.brew.sh/formula/zsh-completions
 )
 
 brew_cask_packages=(
