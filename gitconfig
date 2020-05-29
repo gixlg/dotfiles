@@ -6,7 +6,8 @@
 [http]
 	sslVerify = false
 [pager]
-       diff = diff-so-fancy | less --tabs=1,5 -RFX
-       show = diff-so-fancy | less --tabs=1,5 -RFX
+    diff = diff-so-fancy | less --tabs=1,5 -RFX
+    show = diff-so-fancy | less --tabs=1,5 -RFX
+	branch = false #https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less
 [core]
     editor = 'subl' --wait
