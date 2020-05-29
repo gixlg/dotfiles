@@ -11,3 +11,5 @@
 	branch = false #https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less
 [core]
     editor = 'subl' --wait
+[pull]
+	rebase = true #git pull will be equal to git pull --rebase https://stackoverflow.com/questions/13846300/how-to-make-git-pull-use-rebase-by-default-for-all-my-repositories
