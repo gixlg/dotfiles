@@ -51,10 +51,10 @@ brew_cask_packages=(
     vlc
 
     # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
-    qlcolorcode
-    qlstephen
-    qlmarkdown
-    quicklook-json
+    #qlcolorcode
+    #qlstephen
+    #qlmarkdown #“QLMarkdown.qlgenerator” can’t be opened because Apple cannot check it for malicious software.
+    #quicklook-json
 
 )
 
