@@ -20,6 +20,8 @@ brew_packages=(
     fd # user-friendly find alternative https://github.com/sharkdp/fd/
     ncdu # better du
     tldr # better man https://github.com/tldr-pages/tldr/
+    jq #https://stedolan.github.io/jq/
+    awscli
 
     zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
     zsh-syntax-highlighting
@@ -49,6 +51,7 @@ brew_cask_packages=(
     dbeaver-community #https://stackoverflow.com/a/60912567/5945360
     bitbar #https://getbitbar.com/
     vlc
+    sketch
 
     # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
     #qlcolorcode
