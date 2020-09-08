@@ -1,6 +1,8 @@
-[user]
-	email = gix_lg@yahoo.com
-	name = Luca Giuberti
+[includeIf "gitdir:/Users/luca/Development/Personal/**"]
+    path = ./.gitconfig-personal
+
+[includeIf "gitdir:/Users/luca/Development/ThoughtWorks/**"]
+    path = ./.gitconfig-thoughtworks
 [alias]
 	pr = pull --rebase
 [http]

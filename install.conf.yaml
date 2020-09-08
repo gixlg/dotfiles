@@ -14,6 +14,8 @@
     ~/.git-completion.bash: git-completion.bash
     ~/.bash/git-aware-prompt: git-aware-prompt
     ~/.gitconfig: gitconfig
+    ~/.gitconfig-personal: gitconfig-personal
+    ~/.gitconfig-thoughtworks: gitconfig-thoughtworks
 
     ~/.bash_profile: bash_profile.bash
     ~/.bashrc: bashrc.bash
