@@ -11,6 +11,7 @@ brew_packages=(
     fzf #https://github.com/junegunn/fzf
     jenv #https://github.com/jenv/jenv
     pyenv #https://github.com/pyenv/pyenv
+    nvm #https://github.com/nvm-sh/nvm#about
     bash-completion
 
     exa # ls replacement https://github.com/ogham/exa
