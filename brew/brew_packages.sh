@@ -22,6 +22,7 @@ brew_packages=(
     tldr # better man https://github.com/tldr-pages/tldr/
     jq #https://stedolan.github.io/jq/
     awscli
+    k9s #https://k9scli.io/
 
     zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
     zsh-syntax-highlighting
