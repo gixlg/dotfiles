@@ -1,5 +1,6 @@
 brew_packages=(
     htop
+    ncdu #https://dev.yorhel.nl/ncdu
     wget
     telnet
     tree
@@ -7,6 +8,7 @@ brew_packages=(
     maven
     gradle
     node
+    yarn
 
     fzf #https://github.com/junegunn/fzf
     jenv #https://github.com/jenv/jenv
