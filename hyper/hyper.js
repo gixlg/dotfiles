@@ -124,7 +124,8 @@ module.exports = {
     'hyperterm-dibdabs', //colored dot on the left of the tab
     'hyperterm-tabs', //tabs reordering support plugin
     'hyper-alt-click', //moving the cursor by alt+clicking in hyper
-    'hyper-savetext', //add the button for text export (shell/export text as) https://www.npmjs.com/package/hyper-savetext
+    //Disable because with Hyper 3.1.2 (stable) it doesn't work 
+    //hyper-savetext', //add the button for text export (shell/export text as) https://www.npmjs.com/package/hyper-savetext
     "hyper-search"
   ],
 
