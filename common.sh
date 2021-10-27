@@ -62,16 +62,16 @@ alias mi='mvn install'
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-#pyenv
+#pyenv https://github.com/pyenv/pyenv
 export PATH="$(pyenv root)/shims:$PATH"
 eval "$(pyenv init -)"
+
+#nvm https://github.com/nvm-sh/nvm#usage
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 #Load works script/alias and staff
 if [ -f ~/.myscript/work.sh ]; then
     source ~/.myscript/work.sh
 fi
-
-#nvm #https://github.com/nvm-sh/nvm#usage
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
