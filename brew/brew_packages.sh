@@ -27,6 +27,7 @@ brew_packages=(
     awscli
     kubectx #https://github.com/ahmetb/kubectx
     k9s #https://k9scli.io/
+    terraform
 
     zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
     zsh-syntax-highlighting
