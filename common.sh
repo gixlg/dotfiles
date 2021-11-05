@@ -30,7 +30,14 @@ alias start-apache="apachectl start"
 alias edit-profile='code ~/.bash_profile'
 alias edit-z-profile='code ~/.zshrc'
 alias edit-common-profile='code ~/.myscript/common.sh'
+alias edit-my-script='code ~/.myscript'
 alias edit-dotfiles='code ~/dotfiles'
+
+alias edit-profile-with-idea='idea ~/.bash_profile'
+alias edit-z-profile-with-idea='idea ~/.zshrc'
+alias edit-common-profile-with-idea='idea ~/.myscript/common.sh'
+alias edit-my-script-with-idea='idea ~/.myscript'
+alias edit-dotfiles-with-idea='idea ~/dotfiles'
 
 alias showenv="printenv | cat"
 
