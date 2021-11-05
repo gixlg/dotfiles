@@ -15,3 +15,6 @@
     editor = 'subl' --wait
 [pull]
 	rebase = true #git pull will be equal to git pull --rebase https://stackoverflow.com/questions/13846300/how-to-make-git-pull-use-rebase-by-default-for-all-my-repositories
+[user]
+	name = Luca Giuberti
+	email = gix_lg@yahoo.com
