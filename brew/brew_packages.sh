@@ -14,6 +14,7 @@ brew_packages=(
     jenv #https://github.com/jenv/jenv
     pyenv #https://github.com/pyenv/pyenv
     nvm #https://github.com/nvm-sh/nvm#about
+    tfenv #https://github.com/tfutils/tfenv
     bash-completion
 
     exa # ls replacement https://github.com/ogham/exa
@@ -27,7 +28,6 @@ brew_packages=(
     awscli
     kubectx #https://github.com/ahmetb/kubectx
     k9s #https://k9scli.io/
-    terraform
 
     zsh-autosuggestions #https://github.com/zsh-users/zsh-autosuggestions
     zsh-syntax-highlighting
