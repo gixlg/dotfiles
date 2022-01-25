@@ -25,6 +25,10 @@ brew_packages=(
     ncdu # better du
     tldr # better man https://github.com/tldr-pages/tldr/
     jq #https://stedolan.github.io/jq/
+    
+    colima #https://github.com/abiosoft/colim
+    docker
+    docker-compose
     awscli
     kubectx #https://github.com/ahmetb/kubectx
     k9s #https://k9scli.io/
@@ -46,7 +50,6 @@ brew_cask_packages=(
     jumpcut
     spotify
     postman
-    docker
     intellij-idea
     visual-studio-code
     google-drive-file-stream

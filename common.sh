@@ -82,3 +82,12 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f ~/.myscript/work.sh ]; then
     source ~/.myscript/work.sh
 fi
+
+function load-gix_lg-aws-profile() {
+    export AWS_PROFILE="gix_lg"
+    export AWS_DEFAULT_REGION="eu-west-3"
+}
+
+#Brew
+alias show-brew-packages='brew list'
+alias go-to-brew-packages-folder='cd /usr/local/Cellar/ && ls'
