@@ -39,7 +39,7 @@ alias edit-common-profile-with-idea='idea ~/.myscript/common.sh'
 alias edit-my-script-with-idea='idea ~/.myscript'
 alias edit-dotfiles-with-idea='idea ~/dotfiles'
 
-alias showenv="printenv | cat"
+alias show-env="export -p | sed 's/declare -x //' | cat"
 
 #History shortcut
 alias h='history'
