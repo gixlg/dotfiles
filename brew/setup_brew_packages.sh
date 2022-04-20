@@ -19,7 +19,7 @@ if [ "$1" == "--remove" ] || [ "$1" == "-r" ]; then
     for i in "${brew_cask_packages[@]}"
     do
         :
-        brew cask uninstall "$i"
+        brew uninstall "$i"
     done
 
     echo "Removing Taps (Third-Party Repositories)"
@@ -69,5 +69,5 @@ echo "Installing Cask packages"
 for i in "${brew_cask_packages[@]}"
 do
    :
-   brew cask install "$i"
+   brew install --cask "$i"
 done

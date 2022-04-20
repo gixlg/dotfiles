@@ -26,9 +26,9 @@ brew_packages=(
     tldr # better man https://github.com/tldr-pages/tldr/
     jq #https://stedolan.github.io/jq/
     
-    colima #https://github.com/abiosoft/colim
-    docker
-    docker-compose
+    #colima #https://github.com/abiosoft/colim
+    #docker
+    #docker-compose
     awscli
     kubectx #https://github.com/ahmetb/kubectx
     k9s #https://k9scli.io/
@@ -41,27 +41,41 @@ brew_packages=(
 brew_cask_packages=(
     #google-chrome
     slack
-    adoptopenjdk/openjdk/adoptopenjdk8
+    discord
+    #adoptopenjdk/openjdk/adoptopenjdk8
     sublime-text
-    #zoomus
-    google-chat
-    skype
+    zoom #zoomus
+    #google-chat
+    #skype
     hyper
+    iterm2
     jumpcut
     spotify
     postman
-    intellij-idea
-    visual-studio-code
-    google-drive-file-stream
-    dropbox
+    jetbrains-toolbox #intellij-idea
+        visual-studio-code
+    google-drive #google-drive-file-stream
+    #dropbox
     gimp
-    drawio
-    1password
-    dbeaver-community #https://stackoverflow.com/a/60912567/5945360
-    bitbar #https://getbitbar.com/
+    #drawio
+    #1password
+    #dbeaver-community #https://stackoverflow.com/a/60912567/5945360
+    xbar #https://xbarapp.com/
     vlc
-    sketch
+    #sketch
+    stack-stack
+    authy
+    obs
+    docker
+    the-unarchiver
+    appcleaner
 
+    tunnelblick #vpn
+
+    microsoft-outlook
+    microsoft-excel
+    microsoft-word
+    microsoft-teams
     # Quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
     #qlcolorcode
     #qlstephen
