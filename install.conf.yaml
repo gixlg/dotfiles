@@ -20,6 +20,7 @@
     ~/.bash_profile: bash_profile.bash
     ~/.bashrc: bashrc.bash
 
+    ~/.zprofile: zprofile.zsh
     ~/.zshrc: zshrc.zsh
 
     ~/.myscript/common.sh: 
