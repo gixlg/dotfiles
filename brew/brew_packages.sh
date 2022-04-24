@@ -26,6 +26,7 @@ brew_packages=(
     tldr # better man https://github.com/tldr-pages/tldr/
     jq #https://stedolan.github.io/jq/
     
+    #removed because is used docker-desktop
     #colima #https://github.com/abiosoft/colim
     #docker
     #docker-compose
@@ -45,23 +46,19 @@ brew_cask_packages=(
     #adoptopenjdk/openjdk/adoptopenjdk8
     sublime-text
     zoom #zoomus
-    #google-chat
-    #skype
     hyper
     iterm2
     jumpcut
     spotify
     postman
     jetbrains-toolbox #intellij-idea
-        visual-studio-code
+    visual-studio-code
     google-drive #google-drive-file-stream
     #dropbox
     gimp
-    #drawio
-    #1password
-    #dbeaver-community #https://stackoverflow.com/a/60912567/5945360
     xbar #https://xbarapp.com/
     vlc
+    #drawio
     #sketch
     stack-stack
     authy
@@ -69,9 +66,8 @@ brew_cask_packages=(
     docker
     the-unarchiver
     appcleaner
-
     tunnelblick #vpn
-
+    #Office
     microsoft-outlook
     microsoft-excel
     microsoft-word
