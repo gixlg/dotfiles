@@ -16,9 +16,6 @@
 [submodule "vim/bundle/vim-fugitive"]
 	path = vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "git-aware-prompt"]
-	path = git-aware-prompt
-	url = https://github.com/jimeh/git-aware-prompt.git
 [submodule "fzf/fzf"]
 	path = fzf/fzf
 	url = https://github.com/junegunn/fzf
