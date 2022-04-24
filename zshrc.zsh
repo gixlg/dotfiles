@@ -118,3 +118,6 @@ source ~/.myscript/common.sh
 #     autoload -Uz compinit
 #     compinit
 #fi
+
+#fzf https://github.com/junegunn/fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

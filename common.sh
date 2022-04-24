@@ -65,6 +65,11 @@ alias ll='ls -l'
 alias mci='mvn clean install'
 alias mi='mvn install'
 
+#Brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+alias show-brew-packages='brew list'
+alias go-to-brew-packages-folder='cd /usr/local/Cellar/ && ls'
+
 #jenv https://github.com/jenv/jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
@@ -87,7 +92,3 @@ function load-gix_lg-aws-profile() {
     export AWS_PROFILE="gix_lg"
     export AWS_DEFAULT_REGION="eu-west-3"
 }
-
-#Brew
-alias show-brew-packages='brew list'
-alias go-to-brew-packages-folder='cd /usr/local/Cellar/ && ls'
