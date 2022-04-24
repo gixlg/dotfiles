@@ -105,15 +105,16 @@ plugins=(
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #Enable zsh-autosuggestions plugins installed with brew #https://github.com/zsh-users/zsh-autosuggestions
-source "/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
-source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+#source "/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+#source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
 source $ZSH/oh-my-zsh.sh
 source ~/.myscript/common.sh
 
 
-if type brew &>/dev/null; then
-	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-     autoload -Uz compinit
-     compinit
-fi
+#if type brew &>/dev/null; then
+#	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+#
+#     autoload -Uz compinit
+#     compinit
+#fi
