@@ -112,12 +112,13 @@ source $ZSH/oh-my-zsh.sh
 source ~/.myscript/common.sh
 
 
-#if type brew &>/dev/null; then
-#	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-#
-#     autoload -Uz compinit
-#     compinit
-#fi
+if type brew &>/dev/null; then
+ FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+ autoload -Uz compinit
+ compinit
+fi
+#to solve "zsh compinit: insecure directories, run compaudit for list" problem: https://unix.stackexchange.com/questions/383365/zsh-compinit-insecure-directories-run-compaudit-for-list
 
 #fzf https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
