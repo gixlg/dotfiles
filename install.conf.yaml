@@ -48,6 +48,12 @@
         quiet: false
         description: Install Brew packages
 
+    -   command: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        stdin: true
+        stdout: true
+        quiet: false
+        description: Install oh-my-zsh
+
 #    -   command: install_docker_shell_completion.sh 
 #        stdin: true
 #        stdout: true
