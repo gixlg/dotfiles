@@ -16,9 +16,6 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 #fzf https://github.com/junegunn/fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-#npm completion
-#source ~/.npm-completion
-
 #MySQL
 export PATH=$PATH:/usr/local/mysql/bin
 alias openmysql="mysql -u root --password=password"
