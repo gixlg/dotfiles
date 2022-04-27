@@ -18,7 +18,7 @@ csvcomma() { sed -e 's/^,/ ,/' -e 's/,$/, /' -e 's/,,/, ,/g'  -e 's/,,/, ,/g' $1
 
 #Chrome
 export CHROME_HOME="/Applications/Google\ Chrome.app/Contents/MacOS"
-alias gc="$CHROME_HOME/Google\ Chrome --remote-debugging-port=9222" 
+alias gc="$CHROME_HOME/Google\ Chrome --remote-debugging-port=9222"
 
 #Jekyll
 alias start-jekyll="bundle exec jekyll serve --draft --future"

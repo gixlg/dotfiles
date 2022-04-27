@@ -83,6 +83,6 @@ brew_cask_packages=(
 brew_third_party_repositories=(
     #homebrew/cask-cask
     homebrew/cask-versions
-    adoptopenjdk/openjdk
+    #adoptopenjdk/openjdk #deprecated use temurin
     
 )
