@@ -1,8 +1,16 @@
+[user]
+	name = Luca Giuberti
+	email = gix_lg@yahoo.com
+
 [includeIf "gitdir:/Users/luca/Development/Personal/**"]
     path = ./.gitconfig-personal
 
 [includeIf "gitdir:/Users/luca/Development/ThoughtWorks/**"]
     path = ./.gitconfig-thoughtworks
+
+[includeIf "gitdir:/Users/luca/Development/Clients/Gucci/**"]
+    path = ./.gitconfig-gucci
+
 [alias]
 	pr = pull --rebase
 [http]
@@ -13,8 +21,6 @@
 	branch = false #https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less
 [core]
     editor = 'subl' --wait
+	#autocrlf = input https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
 [pull]
 	rebase = true #git pull will be equal to git pull --rebase https://stackoverflow.com/questions/13846300/how-to-make-git-pull-use-rebase-by-default-for-all-my-repositories
-[user]
-	name = Luca Giuberti
-	email = gix_lg@yahoo.com

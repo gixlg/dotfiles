@@ -16,6 +16,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitconfig-personal: gitconfig-personal
     ~/.gitconfig-thoughtworks: gitconfig-thoughtworks
+    ~/.gitconfig-gucci: gitconfig-gucci
 
     ~/.bash_profile: bash_profile.bash
     ~/.bashrc: bashrc.bash
@@ -23,7 +24,7 @@
     ~/.zprofile: zprofile.zsh
     ~/.zshrc: zshrc.zsh
 
-    ~/.myscript/common.sh: 
+    ~/.myscript/common.sh:
         create: true
         path: common.sh
 
@@ -54,7 +55,7 @@
         quiet: false
         description: Install oh-my-zsh
 
-#    -   command: install_docker_shell_completion.sh 
+#    -   command: install_docker_shell_completion.sh
 #        stdin: true
 #        stdout: true
 #        quiet: false
