@@ -28,3 +28,5 @@ alias openmysql="mysql -u root --password=password"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
+
+source /Users/luca/.docker/init-bash.sh || true # Added by Docker Desktop

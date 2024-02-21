@@ -122,3 +122,5 @@ fi
 
 #fzf https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source /Users/luca/.docker/init-zsh.sh || true # Added by Docker Desktop
