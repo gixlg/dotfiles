@@ -96,3 +96,5 @@ function load-gix_lg-aws-profile() {
     export AWS_PROFILE="gix_lg"
     export AWS_DEFAULT_REGION="eu-west-3"
 }
+
+alias tf64="/usr/local/Cellar/terraform/1.3.1/bin/terraform"

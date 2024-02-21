@@ -14,7 +14,8 @@ brew_packages=(
     jenv #https://github.com/jenv/jenv
     pyenv #https://github.com/pyenv/pyenv
     nvm #https://github.com/nvm-sh/nvm#about
-    tfenv #https://github.com/tfutils/tfenv
+    #tfenv #https://github.com/tfutils/tfenv
+    hashicorp/tap/terraform #https://developer.hashicorp.com/terraform/install
     bash-completion
 
     exa # ls replacement https://github.com/ogham/exa
@@ -77,6 +78,7 @@ brew_cask_packages=(
     #qlstephen
     #qlmarkdown #“QLMarkdown.qlgenerator” can’t be opened because Apple cannot check it for malicious software.
     #quicklook-json
+    hashicorp/tap #https://developer.hashicorp.com/terraform/install
 
 )
 
