@@ -1,10 +1,9 @@
 #!/bin/bash 
-
 function openIdea () {
     echo "Opening IntelliJ Idea"
     pwd
-    cd "/Users/luca/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/212.5457.46"
-    ./IntelliJ\ IDEA.app/Contents/MacOS/idea "$@"
+    cd "$IDEA_HOME"
+    ./Contents/MacOS/idea "$@"
 }
 
 openIdea "$@"

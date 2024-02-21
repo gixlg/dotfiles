@@ -7,11 +7,15 @@ alias help='tldr'
 alias top="htop"
 
 #IntellJ Diff
+export IDEA_HOME="/Users/luca/Applications/IntelliJ IDEA Ultimate.app"
 alias diff-idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea diff"
 alias open-scratches='open ~/Library/Preferences/IntelliJIdea2018.2/scratches/'
 
 #Sublime
 alias sl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# Visual Studio Code (code)
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
 csvcolumn() { sed -e "s/^$2/ $2/" -e "s/$2$/$2 /" -e "s/$2$2/$2 $2/g"  -e "s/$2$2/$2 $2/g" $1 | column -t -s$2 ; }
 csvcomma() { sed -e 's/^,/ ,/' -e 's/,$/, /' -e 's/,,/, ,/g'  -e 's/,,/, ,/g' $1 | column -t -s, ; }
