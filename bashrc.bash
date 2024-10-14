@@ -16,6 +16,9 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 #fzf https://github.com/junegunn/fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+#direnv https://direnv.net/
+eval "$(direnv hook bash)"
+
 #MySQL
 export PATH=$PATH:/usr/local/mysql/bin
 alias openmysql="mysql -u root --password=password"

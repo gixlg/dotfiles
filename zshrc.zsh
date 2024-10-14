@@ -123,4 +123,7 @@ fi
 #fzf https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+#direnv https://direnv.net/
+eval "$(direnv hook zsh)"
+
 source /Users/luca/.docker/init-zsh.sh || true # Added by Docker Desktop

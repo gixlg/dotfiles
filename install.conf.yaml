@@ -28,6 +28,10 @@
         create: true
         path: common.sh
 
+    ~/.config/direnv/direnvrc:
+        create: true
+        path: direnvrc.sh
+
     #alternatives to '$(brew --prefix)/opt/fzf/install --all'
     ~/.fzf.bash: fzfconfig/fzf.bash
     ~/.fzf.zsh: fzfconfig/fzf.zsh
