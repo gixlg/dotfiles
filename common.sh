@@ -98,3 +98,37 @@ function load-gix_lg-aws-profile() {
 }
 
 alias tf64="/usr/local/Cellar/terraform/1.3.1/bin/terraform"
+
+
+# checkout prev (older) revision
+git_prev() {
+    git checkout HEAD~
+}
+
+# checkout next (newer) commit
+git_next() {
+  branch=$(git branch --contains HEAD | grep -v HEAD | tail -1 | sed 's/^[ *]*//g')
+  hash=$(git rev-parse $branch)
+  next=$(git rev-list --topo-order HEAD..$hash | tail -1)
+  git checkout $next
+}
+
+start-tdd-app() {
+    serve /Users/luca/Desktop/padel-tennis-booking-app/
+}
+
+domain-logic() {
+    git checkout domain-logic
+}
+
+service-list() {
+    git checkout service-list
+}
+
+hook() {
+    git checkout hook
+}
+
+isoltation-test() {
+    git checkout isoltation-test
+}
