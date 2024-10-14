@@ -99,7 +99,10 @@ function load-gix_lg-aws-profile() {
 
 alias tf64="/usr/local/Cellar/terraform/1.3.1/bin/terraform"
 
+# Added for Rust
+. "$HOME/.cargo/env"
 
+## Alias per WorkingSoftware
 # checkout prev (older) revision
 git_prev() {
     git checkout HEAD~
@@ -132,3 +135,4 @@ hook() {
 isoltation-test() {
     git checkout isoltation-test
 }
+## Alias per WorkingSoftware
