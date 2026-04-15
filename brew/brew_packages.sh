@@ -4,11 +4,11 @@ brew_packages=(
     wget
     telnet
     tree
+    gnupg
 
     maven
     gradle
     node
-    yarn
 
     fzf #https://github.com/junegunn/fzf
     jenv #https://github.com/jenv/jenv

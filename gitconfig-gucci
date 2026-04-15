@@ -1,3 +1,8 @@
 [user]
-	email = luca.giuberti@guccidigital.com
+	email = luca.giuberti-ext@gucci.com
 	name = Luca Giuberti
+	signingKey = 516FB648B73D6716
+[commit]
+    gpgsign = true
+[tag]
+    gpgSign = true
